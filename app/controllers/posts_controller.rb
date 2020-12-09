@@ -4,13 +4,16 @@ class PostsController < ApplicationController
   # GET /posts
   def index
     @posts = Post.all
-
-    render json: @posts
+    # render json: @posts
+    render json: PostSerializer.new(@posts).to_serialized_json
   end
 
   # GET /posts/1
   def show
-    render json: @post
+  
+    @post = Post.find(params[:id])
+
+    render json: PostSerializer.new(@post).to_serialized_json
   end
 
   # POST /posts
