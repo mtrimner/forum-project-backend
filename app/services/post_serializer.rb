@@ -11,7 +11,7 @@ class PostSerializer
                     except: [:updated_at]
                 },
                 user: {
-                    except: [:created_at, :updated_at]
+                    only: [:id, :username]
                 }
             },
             except: [:updated_at]
