@@ -9,6 +9,9 @@ class PostSerializer
             include: {
                 comments: {
                     except: [:updated_at]
+                },
+                user: {
+                    except: [:created_at, :updated_at]
                 }
             },
             except: [:updated_at]
