@@ -1,24 +1,6 @@
-# README
+# Forum Project Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the backend to a forum project done during Flatiron School's software engineering program.
+Full instructions and details are at the link below.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Please see the README for the front end here: https://github.com/mtrimner/forum-project-frontend
